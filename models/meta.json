@@ -1,8 +1,8 @@
 {
-  "trained_on_rows": 4940,
+  "trained_on_rows": 4941,
   "data_start": "2013-03-27",
-  "data_end": "2026-10-04",
-  "last_known_price": 6079.422847,
+  "data_end": "2026-10-05",
+  "last_known_price": 6130.399026,
   "horizons_trained": [
     1,
     2,
@@ -66,82 +66,82 @@
   ],
   "evaluation": {
     "1": {
-      "raw_model_mae_egp": 14.36,
-      "calibrated_mae_egp": 14.32,
-      "baseline_mae_egp": 14.32,
+      "raw_model_mae_egp": 14.37,
+      "calibrated_mae_egp": 14.33,
+      "baseline_mae_egp": 14.33,
       "improvement_vs_baseline_pct": 0.0,
       "blend_alpha": 0.0,
       "band_scale": 1.0,
       "rmse_egp": 39.74,
       "mape_pct": 0.63,
       "directional_accuracy_pct": 9.6,
-      "quantile_coverage_pct": 80.1
+      "quantile_coverage_pct": 80.6
     },
     "7": {
-      "raw_model_mae_egp": 44.86,
-      "calibrated_mae_egp": 43.93,
-      "baseline_mae_egp": 44.14,
-      "improvement_vs_baseline_pct": 0.5,
-      "blend_alpha": 0.3,
-      "band_scale": 1.0,
-      "rmse_egp": 103.85,
+      "raw_model_mae_egp": 45.77,
+      "calibrated_mae_egp": 44.16,
+      "baseline_mae_egp": 44.16,
+      "improvement_vs_baseline_pct": 0.0,
+      "blend_alpha": 0.0,
+      "band_scale": 1.1,
+      "rmse_egp": 104.14,
       "mape_pct": 1.97,
-      "directional_accuracy_pct": 53.3,
-      "quantile_coverage_pct": 79.2
+      "directional_accuracy_pct": 0.0,
+      "quantile_coverage_pct": 80.0
     },
     "30": {
-      "raw_model_mae_egp": 110.54,
-      "calibrated_mae_egp": 97.98,
+      "raw_model_mae_egp": 102.91,
+      "calibrated_mae_egp": 96.86,
       "baseline_mae_egp": 99.03,
-      "improvement_vs_baseline_pct": 1.1,
-      "blend_alpha": 0.2,
-      "band_scale": 1.6,
-      "rmse_egp": 205.31,
-      "mape_pct": 4.3,
-      "directional_accuracy_pct": 56.1,
-      "quantile_coverage_pct": 80.3
+      "improvement_vs_baseline_pct": 2.2,
+      "blend_alpha": 0.35,
+      "band_scale": 1.4,
+      "rmse_egp": 203.67,
+      "mape_pct": 4.25,
+      "directional_accuracy_pct": 57.6,
+      "quantile_coverage_pct": 80.2
     },
     "90": {
-      "raw_model_mae_egp": 220.14,
-      "calibrated_mae_egp": 208.17,
-      "baseline_mae_egp": 214.12,
-      "improvement_vs_baseline_pct": 2.8,
-      "blend_alpha": 0.35,
-      "band_scale": 8.0,
-      "rmse_egp": 400.95,
-      "mape_pct": 8.63,
-      "directional_accuracy_pct": 65.4,
-      "quantile_coverage_pct": 73.5
+      "raw_model_mae_egp": 232.87,
+      "calibrated_mae_egp": 210.52,
+      "baseline_mae_egp": 214.16,
+      "improvement_vs_baseline_pct": 1.7,
+      "blend_alpha": 0.15,
+      "band_scale": 2.7,
+      "rmse_egp": 400.35,
+      "mape_pct": 8.53,
+      "directional_accuracy_pct": 62.9,
+      "quantile_coverage_pct": 79.8
     },
     "180": {
-      "raw_model_mae_egp": 358.35,
-      "calibrated_mae_egp": 327.34,
-      "baseline_mae_egp": 350.63,
-      "improvement_vs_baseline_pct": 6.6,
-      "blend_alpha": 0.4,
-      "band_scale": 8.0,
-      "rmse_egp": 560.49,
-      "mape_pct": 14.99,
-      "directional_accuracy_pct": 73.0,
-      "quantile_coverage_pct": 65.5
+      "raw_model_mae_egp": 391.25,
+      "calibrated_mae_egp": 330.82,
+      "baseline_mae_egp": 350.84,
+      "improvement_vs_baseline_pct": 5.7,
+      "blend_alpha": 0.3,
+      "band_scale": 7.9,
+      "rmse_egp": 573.07,
+      "mape_pct": 14.5,
+      "directional_accuracy_pct": 67.2,
+      "quantile_coverage_pct": 58.3
     },
     "365": {
-      "raw_model_mae_egp": 386.4,
-      "calibrated_mae_egp": 385.76,
-      "baseline_mae_egp": 631.57,
-      "improvement_vs_baseline_pct": 38.9,
-      "blend_alpha": 0.95,
+      "raw_model_mae_egp": 355.35,
+      "calibrated_mae_egp": 355.35,
+      "baseline_mae_egp": 631.45,
+      "improvement_vs_baseline_pct": 43.7,
+      "blend_alpha": 1.0,
       "band_scale": 8.0,
-      "rmse_egp": 501.29,
-      "mape_pct": 29.67,
-      "directional_accuracy_pct": 82.9,
-      "quantile_coverage_pct": 37.7
+      "rmse_egp": 478.6,
+      "mape_pct": 25.81,
+      "directional_accuracy_pct": 83.0,
+      "quantile_coverage_pct": 24.7
     }
   },
   "deployment_calibration": {
     "1": {
       "blend_alpha": 0.15,
-      "band_scale": 0.7
+      "band_scale": 1.0
     },
     "7": {
       "blend_alpha": 1.0,
