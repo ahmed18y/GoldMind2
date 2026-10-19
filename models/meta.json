@@ -1,8 +1,8 @@
 {
-  "trained_on_rows": 4954,
+  "trained_on_rows": 4955,
   "data_start": "2013-03-27",
-  "data_end": "2026-10-18",
-  "last_known_price": 6272.088319,
+  "data_end": "2026-10-19",
+  "last_known_price": 6280.631457,
   "horizons_trained": [
     1,
     2,
@@ -66,82 +66,82 @@
   ],
   "evaluation": {
     "1": {
-      "raw_model_mae_egp": 14.72,
+      "raw_model_mae_egp": 14.46,
       "calibrated_mae_egp": 14.42,
       "baseline_mae_egp": 14.42,
       "improvement_vs_baseline_pct": 0.0,
       "blend_alpha": 0.0,
-      "band_scale": 0.9,
+      "band_scale": 1.0,
       "rmse_egp": 39.83,
       "mape_pct": 0.63,
       "directional_accuracy_pct": 9.6,
-      "quantile_coverage_pct": 79.0
+      "quantile_coverage_pct": 79.6
     },
     "7": {
-      "raw_model_mae_egp": 44.4,
-      "calibrated_mae_egp": 43.71,
-      "baseline_mae_egp": 44.17,
-      "improvement_vs_baseline_pct": 1.0,
+      "raw_model_mae_egp": 44.43,
+      "calibrated_mae_egp": 43.81,
+      "baseline_mae_egp": 44.3,
+      "improvement_vs_baseline_pct": 1.1,
       "blend_alpha": 0.45,
       "band_scale": 1.0,
-      "rmse_egp": 103.18,
-      "mape_pct": 1.95,
-      "directional_accuracy_pct": 53.4,
-      "quantile_coverage_pct": 78.8
+      "rmse_egp": 103.29,
+      "mape_pct": 1.96,
+      "directional_accuracy_pct": 54.3,
+      "quantile_coverage_pct": 79.3
     },
     "30": {
-      "raw_model_mae_egp": 102.4,
-      "calibrated_mae_egp": 96.99,
-      "baseline_mae_egp": 99.16,
-      "improvement_vs_baseline_pct": 2.2,
-      "blend_alpha": 0.35,
-      "band_scale": 1.4,
-      "rmse_egp": 204.17,
-      "mape_pct": 4.22,
-      "directional_accuracy_pct": 56.5,
-      "quantile_coverage_pct": 81.0
+      "raw_model_mae_egp": 105.9,
+      "calibrated_mae_egp": 98.49,
+      "baseline_mae_egp": 99.13,
+      "improvement_vs_baseline_pct": 0.6,
+      "blend_alpha": 0.2,
+      "band_scale": 1.6,
+      "rmse_egp": 206.4,
+      "mape_pct": 4.25,
+      "directional_accuracy_pct": 56.6,
+      "quantile_coverage_pct": 80.6
     },
     "90": {
-      "raw_model_mae_egp": 207.79,
-      "calibrated_mae_egp": 202.0,
-      "baseline_mae_egp": 215.01,
-      "improvement_vs_baseline_pct": 6.0,
-      "blend_alpha": 0.6,
-      "band_scale": 2.4,
-      "rmse_egp": 387.17,
+      "raw_model_mae_egp": 200.17,
+      "calibrated_mae_egp": 198.8,
+      "baseline_mae_egp": 215.05,
+      "improvement_vs_baseline_pct": 7.6,
+      "blend_alpha": 0.8,
+      "band_scale": 1.9,
+      "rmse_egp": 387.12,
       "mape_pct": 8.83,
-      "directional_accuracy_pct": 64.3,
-      "quantile_coverage_pct": 79.9
+      "directional_accuracy_pct": 66.8,
+      "quantile_coverage_pct": 80.2
     },
     "180": {
-      "raw_model_mae_egp": 392.87,
-      "calibrated_mae_egp": 330.6,
-      "baseline_mae_egp": 352.88,
-      "improvement_vs_baseline_pct": 6.3,
-      "blend_alpha": 0.3,
+      "raw_model_mae_egp": 405.22,
+      "calibrated_mae_egp": 339.82,
+      "baseline_mae_egp": 352.98,
+      "improvement_vs_baseline_pct": 3.7,
+      "blend_alpha": 0.2,
       "band_scale": 8.0,
-      "rmse_egp": 566.67,
-      "mape_pct": 14.63,
-      "directional_accuracy_pct": 68.2,
-      "quantile_coverage_pct": 53.3
+      "rmse_egp": 584.02,
+      "mape_pct": 14.08,
+      "directional_accuracy_pct": 68.1,
+      "quantile_coverage_pct": 45.8
     },
     "365": {
-      "raw_model_mae_egp": 400.49,
-      "calibrated_mae_egp": 400.49,
-      "baseline_mae_egp": 632.11,
-      "improvement_vs_baseline_pct": 36.6,
+      "raw_model_mae_egp": 414.09,
+      "calibrated_mae_egp": 414.09,
+      "baseline_mae_egp": 632.2,
+      "improvement_vs_baseline_pct": 34.5,
       "blend_alpha": 1.0,
-      "band_scale": 7.9,
-      "rmse_egp": 513.41,
-      "mape_pct": 30.13,
-      "directional_accuracy_pct": 82.9,
-      "quantile_coverage_pct": 43.3
+      "band_scale": 8.0,
+      "rmse_egp": 528.56,
+      "mape_pct": 31.52,
+      "directional_accuracy_pct": 83.0,
+      "quantile_coverage_pct": 51.0
     }
   },
   "deployment_calibration": {
     "1": {
       "blend_alpha": 0.15,
-      "band_scale": 1.0
+      "band_scale": 0.7
     },
     "7": {
       "blend_alpha": 1.0,
